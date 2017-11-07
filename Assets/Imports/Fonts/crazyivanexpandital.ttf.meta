@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 1df91f46e5c1049d98e1bec86f009cc6
+timeCreated: 1506896781
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Crazy Ivan Expanded Italic
+  fontNames:
+  - Crazy Ivan Expanded Italic
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

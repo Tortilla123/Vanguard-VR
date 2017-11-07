@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 4bcd6cabd31cb479d853b081b029d543
+timeCreated: 1506896781
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Crazy Ivan Condensed Italic
+  fontNames:
+  - Crazy Ivan Condensed Italic
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

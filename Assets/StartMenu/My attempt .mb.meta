@@ -1,0 +1,515 @@
+fileFormatVersion: 2
+guid: 187171896036d4a63ad3ac47f2c1964a
+timeCreated: 1506270934
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: bigPlanet
+    100002: camera1
+    100004: camera1_aim
+    100006: camera1_group
+    100008: Crate
+    100010: Crate1
+    100012: Crate2
+    100014: Crate3
+    100016: Crate4
+    100018: group1
+    100020: group2
+    100022: group3
+    100024: group4
+    100026: Head
+    100028: Head 1
+    100030: HeadTop_End
+    100032: Hips
+    100034: Hips1
+    100036: LeftArm
+    100038: LeftArm 1
+    100040: LeftFoot
+    100042: LeftFoot 1
+    100044: LeftForeArm
+    100046: LeftForeArm 1
+    100048: LeftHand
+    100050: LeftHand 1
+    100052: LeftHandIndex1
+    100054: LeftHandIndex2
+    100056: LeftHandIndex3
+    100058: LeftHandIndex4
+    100060: LeftHandMiddle1
+    100062: LeftHandMiddle2
+    100064: LeftHandMiddle3
+    100066: LeftHandMiddle4
+    100068: LeftHandPinky1
+    100070: LeftHandPinky2
+    100072: LeftHandPinky3
+    100074: LeftHandPinky4
+    100076: LeftHandRing1
+    100078: LeftHandRing2
+    100080: LeftHandRing3
+    100082: LeftHandRing4
+    100084: LeftHandThumb1
+    100086: LeftHandThumb2
+    100088: LeftHandThumb3
+    100090: LeftHandThumb4
+    100092: LeftLeg
+    100094: LeftLeg 1
+    100096: LeftShoulder
+    100098: LeftShoulder 1
+    100100: LeftToe_End
+    100102: LeftToeBase
+    100104: LeftToeBase 1
+    100106: LeftUpLeg
+    100108: LeftUpLeg 1
+    100110: Moon
+    100112: //RootNode
+    100114: Neck
+    100116: Neck 1
+    100118: Pillar
+    100120: Pillar1
+    100122: Pillar2
+    100124: Pillar3
+    100126: Pillar4
+    100128: place3dTexture1
+    100130: Planet
+    100132: Planet1
+    100134: Planet2
+    100136: Planet3
+    100138: pointLight1
+    100140: pointLight2
+    100142: Projector
+    100144: QuickRigCharacter_Ctrl_ChestEndEffector
+    100146: QuickRigCharacter_Ctrl_ChestOriginEffector
+    100148: QuickRigCharacter_Ctrl_Head
+    100150: QuickRigCharacter_Ctrl_HeadEffector
+    100152: QuickRigCharacter_Ctrl_Hips
+    100154: QuickRigCharacter_Ctrl_HipsEffector
+    100156: QuickRigCharacter_Ctrl_LeftAnkleEffector
+    100158: QuickRigCharacter_Ctrl_LeftArm
+    100160: QuickRigCharacter_Ctrl_LeftElbowEffector
+    100162: QuickRigCharacter_Ctrl_LeftFoot
+    100164: QuickRigCharacter_Ctrl_LeftFootEffector
+    100166: QuickRigCharacter_Ctrl_LeftForeArm
+    100168: QuickRigCharacter_Ctrl_LeftHand
+    100170: QuickRigCharacter_Ctrl_LeftHipEffector
+    100172: QuickRigCharacter_Ctrl_LeftKneeEffector
+    100174: QuickRigCharacter_Ctrl_LeftLeg
+    100176: QuickRigCharacter_Ctrl_LeftShoulder
+    100178: QuickRigCharacter_Ctrl_LeftShoulderEffector
+    100180: QuickRigCharacter_Ctrl_LeftToeBase
+    100182: QuickRigCharacter_Ctrl_LeftUpLeg
+    100184: QuickRigCharacter_Ctrl_LeftWristEffector
+    100186: QuickRigCharacter_Ctrl_Neck
+    100188: QuickRigCharacter_Ctrl_Reference
+    100190: QuickRigCharacter_Ctrl_RightAnkleEffector
+    100192: QuickRigCharacter_Ctrl_RightArm
+    100194: QuickRigCharacter_Ctrl_RightElbowEffector
+    100196: QuickRigCharacter_Ctrl_RightFoot
+    100198: QuickRigCharacter_Ctrl_RightFootEffector
+    100200: QuickRigCharacter_Ctrl_RightForeArm
+    100202: QuickRigCharacter_Ctrl_RightHand
+    100204: QuickRigCharacter_Ctrl_RightHipEffector
+    100206: QuickRigCharacter_Ctrl_RightKneeEffector
+    100208: QuickRigCharacter_Ctrl_RightLeg
+    100210: QuickRigCharacter_Ctrl_RightShoulder
+    100212: QuickRigCharacter_Ctrl_RightShoulderEffector
+    100214: QuickRigCharacter_Ctrl_RightToeBase
+    100216: QuickRigCharacter_Ctrl_RightUpLeg
+    100218: QuickRigCharacter_Ctrl_RightWristEffector
+    100220: QuickRigCharacter_Ctrl_Spine
+    100222: QuickRigCharacter_Ctrl_Spine1
+    100224: QuickRigCharacter_Ctrl_Spine2
+    100226: QuickRigCharacter_Guides
+    100228: QuickRigCharacter_Head
+    100230: QuickRigCharacter_Hips
+    100232: QuickRigCharacter_LeftArm
+    100234: QuickRigCharacter_LeftFoot
+    100236: QuickRigCharacter_LeftForeArm
+    100238: QuickRigCharacter_LeftHand
+    100240: QuickRigCharacter_LeftLeg
+    100242: QuickRigCharacter_LeftShoulder
+    100244: QuickRigCharacter_LeftToeBase
+    100246: QuickRigCharacter_LeftUpLeg
+    100248: QuickRigCharacter_Neck
+    100250: QuickRigCharacter_Reference
+    100252: QuickRigCharacter_RightArm
+    100254: QuickRigCharacter_RightFoot
+    100256: QuickRigCharacter_RightForeArm
+    100258: QuickRigCharacter_RightHand
+    100260: QuickRigCharacter_RightLeg
+    100262: QuickRigCharacter_RightShoulder
+    100264: QuickRigCharacter_RightToeBase
+    100266: QuickRigCharacter_RightUpLeg
+    100268: QuickRigCharacter_Spine
+    100270: QuickRigCharacter_Spine1
+    100272: QuickRigCharacter_Spine2
+    100274: Reference
+    100276: RightArm
+    100278: RightArm 1
+    100280: RightFoot
+    100282: RightFoot 1
+    100284: RightForeArm
+    100286: RightForeArm 1
+    100288: RightHand
+    100290: RightHand 1
+    100292: RightHandIndex1
+    100294: RightHandIndex2
+    100296: RightHandIndex3
+    100298: RightHandIndex4
+    100300: RightHandMiddle1
+    100302: RightHandMiddle2
+    100304: RightHandMiddle3
+    100306: RightHandMiddle4
+    100308: RightHandPinky1
+    100310: RightHandPinky2
+    100312: RightHandPinky3
+    100314: RightHandPinky4
+    100316: RightHandRing1
+    100318: RightHandRing2
+    100320: RightHandRing3
+    100322: RightHandRing4
+    100324: RightHandThumb1
+    100326: RightHandThumb2
+    100328: RightHandThumb3
+    100330: RightHandThumb4
+    100332: RightLeg
+    100334: RightLeg 1
+    100336: RightShoulder
+    100338: RightShoulder 1
+    100340: RightToe_End
+    100342: RightToeBase
+    100344: RightToeBase 1
+    100346: RightUpLeg
+    100348: RightUpLeg 1
+    100350: Ring
+    100352: Room
+    100354: ShotCam
+    100356: Spine
+    100358: Spine 1
+    100360: Spine1
+    100362: Spine1 1
+    100364: Spine2
+    100366: Spine2 1
+    100368: spotLight1
+    100370: spotLight2
+    100372: Sun
+    100374: Warrok
+    400000: bigPlanet
+    400002: camera1
+    400004: camera1_aim
+    400006: camera1_group
+    400008: Crate
+    400010: Crate1
+    400012: Crate2
+    400014: Crate3
+    400016: Crate4
+    400018: group1
+    400020: group2
+    400022: group3
+    400024: group4
+    400026: Head
+    400028: Head 1
+    400030: HeadTop_End
+    400032: Hips
+    400034: Hips1
+    400036: LeftArm
+    400038: LeftArm 1
+    400040: LeftFoot
+    400042: LeftFoot 1
+    400044: LeftForeArm
+    400046: LeftForeArm 1
+    400048: LeftHand
+    400050: LeftHand 1
+    400052: LeftHandIndex1
+    400054: LeftHandIndex2
+    400056: LeftHandIndex3
+    400058: LeftHandIndex4
+    400060: LeftHandMiddle1
+    400062: LeftHandMiddle2
+    400064: LeftHandMiddle3
+    400066: LeftHandMiddle4
+    400068: LeftHandPinky1
+    400070: LeftHandPinky2
+    400072: LeftHandPinky3
+    400074: LeftHandPinky4
+    400076: LeftHandRing1
+    400078: LeftHandRing2
+    400080: LeftHandRing3
+    400082: LeftHandRing4
+    400084: LeftHandThumb1
+    400086: LeftHandThumb2
+    400088: LeftHandThumb3
+    400090: LeftHandThumb4
+    400092: LeftLeg
+    400094: LeftLeg 1
+    400096: LeftShoulder
+    400098: LeftShoulder 1
+    400100: LeftToe_End
+    400102: LeftToeBase
+    400104: LeftToeBase 1
+    400106: LeftUpLeg
+    400108: LeftUpLeg 1
+    400110: Moon
+    400112: //RootNode
+    400114: Neck
+    400116: Neck 1
+    400118: Pillar
+    400120: Pillar1
+    400122: Pillar2
+    400124: Pillar3
+    400126: Pillar4
+    400128: place3dTexture1
+    400130: Planet
+    400132: Planet1
+    400134: Planet2
+    400136: Planet3
+    400138: pointLight1
+    400140: pointLight2
+    400142: Projector
+    400144: QuickRigCharacter_Ctrl_ChestEndEffector
+    400146: QuickRigCharacter_Ctrl_ChestOriginEffector
+    400148: QuickRigCharacter_Ctrl_Head
+    400150: QuickRigCharacter_Ctrl_HeadEffector
+    400152: QuickRigCharacter_Ctrl_Hips
+    400154: QuickRigCharacter_Ctrl_HipsEffector
+    400156: QuickRigCharacter_Ctrl_LeftAnkleEffector
+    400158: QuickRigCharacter_Ctrl_LeftArm
+    400160: QuickRigCharacter_Ctrl_LeftElbowEffector
+    400162: QuickRigCharacter_Ctrl_LeftFoot
+    400164: QuickRigCharacter_Ctrl_LeftFootEffector
+    400166: QuickRigCharacter_Ctrl_LeftForeArm
+    400168: QuickRigCharacter_Ctrl_LeftHand
+    400170: QuickRigCharacter_Ctrl_LeftHipEffector
+    400172: QuickRigCharacter_Ctrl_LeftKneeEffector
+    400174: QuickRigCharacter_Ctrl_LeftLeg
+    400176: QuickRigCharacter_Ctrl_LeftShoulder
+    400178: QuickRigCharacter_Ctrl_LeftShoulderEffector
+    400180: QuickRigCharacter_Ctrl_LeftToeBase
+    400182: QuickRigCharacter_Ctrl_LeftUpLeg
+    400184: QuickRigCharacter_Ctrl_LeftWristEffector
+    400186: QuickRigCharacter_Ctrl_Neck
+    400188: QuickRigCharacter_Ctrl_Reference
+    400190: QuickRigCharacter_Ctrl_RightAnkleEffector
+    400192: QuickRigCharacter_Ctrl_RightArm
+    400194: QuickRigCharacter_Ctrl_RightElbowEffector
+    400196: QuickRigCharacter_Ctrl_RightFoot
+    400198: QuickRigCharacter_Ctrl_RightFootEffector
+    400200: QuickRigCharacter_Ctrl_RightForeArm
+    400202: QuickRigCharacter_Ctrl_RightHand
+    400204: QuickRigCharacter_Ctrl_RightHipEffector
+    400206: QuickRigCharacter_Ctrl_RightKneeEffector
+    400208: QuickRigCharacter_Ctrl_RightLeg
+    400210: QuickRigCharacter_Ctrl_RightShoulder
+    400212: QuickRigCharacter_Ctrl_RightShoulderEffector
+    400214: QuickRigCharacter_Ctrl_RightToeBase
+    400216: QuickRigCharacter_Ctrl_RightUpLeg
+    400218: QuickRigCharacter_Ctrl_RightWristEffector
+    400220: QuickRigCharacter_Ctrl_Spine
+    400222: QuickRigCharacter_Ctrl_Spine1
+    400224: QuickRigCharacter_Ctrl_Spine2
+    400226: QuickRigCharacter_Guides
+    400228: QuickRigCharacter_Head
+    400230: QuickRigCharacter_Hips
+    400232: QuickRigCharacter_LeftArm
+    400234: QuickRigCharacter_LeftFoot
+    400236: QuickRigCharacter_LeftForeArm
+    400238: QuickRigCharacter_LeftHand
+    400240: QuickRigCharacter_LeftLeg
+    400242: QuickRigCharacter_LeftShoulder
+    400244: QuickRigCharacter_LeftToeBase
+    400246: QuickRigCharacter_LeftUpLeg
+    400248: QuickRigCharacter_Neck
+    400250: QuickRigCharacter_Reference
+    400252: QuickRigCharacter_RightArm
+    400254: QuickRigCharacter_RightFoot
+    400256: QuickRigCharacter_RightForeArm
+    400258: QuickRigCharacter_RightHand
+    400260: QuickRigCharacter_RightLeg
+    400262: QuickRigCharacter_RightShoulder
+    400264: QuickRigCharacter_RightToeBase
+    400266: QuickRigCharacter_RightUpLeg
+    400268: QuickRigCharacter_Spine
+    400270: QuickRigCharacter_Spine1
+    400272: QuickRigCharacter_Spine2
+    400274: Reference
+    400276: RightArm
+    400278: RightArm 1
+    400280: RightFoot
+    400282: RightFoot 1
+    400284: RightForeArm
+    400286: RightForeArm 1
+    400288: RightHand
+    400290: RightHand 1
+    400292: RightHandIndex1
+    400294: RightHandIndex2
+    400296: RightHandIndex3
+    400298: RightHandIndex4
+    400300: RightHandMiddle1
+    400302: RightHandMiddle2
+    400304: RightHandMiddle3
+    400306: RightHandMiddle4
+    400308: RightHandPinky1
+    400310: RightHandPinky2
+    400312: RightHandPinky3
+    400314: RightHandPinky4
+    400316: RightHandRing1
+    400318: RightHandRing2
+    400320: RightHandRing3
+    400322: RightHandRing4
+    400324: RightHandThumb1
+    400326: RightHandThumb2
+    400328: RightHandThumb3
+    400330: RightHandThumb4
+    400332: RightLeg
+    400334: RightLeg 1
+    400336: RightShoulder
+    400338: RightShoulder 1
+    400340: RightToe_End
+    400342: RightToeBase
+    400344: RightToeBase 1
+    400346: RightUpLeg
+    400348: RightUpLeg 1
+    400350: Ring
+    400352: Room
+    400354: ShotCam
+    400356: Spine
+    400358: Spine 1
+    400360: Spine1
+    400362: Spine1 1
+    400364: Spine2
+    400366: Spine2 1
+    400368: spotLight1
+    400370: spotLight2
+    400372: Sun
+    400374: Warrok
+    2300000: bigPlanet
+    2300002: Crate
+    2300004: Crate1
+    2300006: Crate2
+    2300008: Crate3
+    2300010: Crate4
+    2300012: Moon
+    2300014: Pillar
+    2300016: Pillar1
+    2300018: Pillar2
+    2300020: Pillar3
+    2300022: Pillar4
+    2300024: Planet
+    2300026: Planet1
+    2300028: Planet2
+    2300030: Planet3
+    2300032: Projector
+    2300034: Ring
+    2300036: Room
+    2300038: Sun
+    3300000: bigPlanet
+    3300002: Crate
+    3300004: Crate1
+    3300006: Crate2
+    3300008: Crate3
+    3300010: Crate4
+    3300012: Moon
+    3300014: Pillar
+    3300016: Pillar1
+    3300018: Pillar2
+    3300020: Pillar3
+    3300022: Pillar4
+    3300024: Planet
+    3300026: Planet1
+    3300028: Planet2
+    3300030: Planet3
+    3300032: Projector
+    3300034: Ring
+    3300036: Room
+    3300038: Sun
+    4300000: Room
+    4300002: Crate
+    4300004: Crate1
+    4300006: Crate2
+    4300008: Crate3
+    4300010: Crate4
+    4300012: Pillar
+    4300014: Pillar1
+    4300016: Pillar2
+    4300018: Pillar3
+    4300020: Pillar4
+    4300022: Projector
+    4300024: Sun
+    4300026: Planet
+    4300028: Moon
+    4300030: Planet1
+    4300032: Planet2
+    4300034: Ring
+    4300036: Planet3
+    4300038: bigPlanet
+    4300040: Warrok
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Warrok
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

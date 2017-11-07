@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: d3b18b909a9024183afef2a515fd88fa
+timeCreated: 1506896781
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Crazy Ivan Halftone Italic
+  fontNames:
+  - Crazy Ivan Halftone Italic
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

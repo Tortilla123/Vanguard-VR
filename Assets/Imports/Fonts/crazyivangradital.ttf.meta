@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 5c46dec9996664a77ba55b5bd6e0f7f2
+timeCreated: 1506896781
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Crazy Ivan Gradient Italic
+  fontNames:
+  - Crazy Ivan Gradient Italic
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

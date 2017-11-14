@@ -1,16 +1,16 @@
 ﻿===================================
-MUZZLE FLASH DIFFERENCES
+start FLASH DIFFERENCES
 ===================================
 
-Each Muzzle Flash is provided in multiple versions using different techniques for the rendering (it mostly impact how the effect looks when viewed from front/rear):
+Each start Flash is provided in multiple versions using different techniques for the rendering (it mostly impact how the effect looks when viewed from front/rear):
 
 - SPRITES:
-Uses a billboard sprite for the muzzle flash, and a fixed plane for the front/rear muzzle flash
+Uses a billboard sprite for the start flash, and a fixed plane for the front/rear start flash
 Best when viewed from all angles
 
 - 4 PLANES:
-Uses 4 fixed planes for the muzzle flash, forming a cross (+ and × overlapped)
-Creates a star-shaped front/rear muzzle flash
+Uses 4 fixed planes for the start flash, forming a cross (+ and × overlapped)
+Creates a star-shaped front/rear start flash
 
 - FPS:
 Shows only the front/rear sprite, to be used in First Person mode

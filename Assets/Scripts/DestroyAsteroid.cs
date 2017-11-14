@@ -1,13 +1,30 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class DestroyAsteroid : MonoBehaviour {
-    void OnTriggerEnter(Collider other)
+    public int counter;
+    //public int asteroid;
+    private void Start()
     {
-        if (other.gameObject.tag == "Player")
-        {
-            DestroyObject(this.gameObject);
-        }
+        //asteroid = GetComponent<AsteroidSpawn>().AsteroidCount;
+        //counter = asteroid;
     }
+
+    private void Update()
+    {
+    
+    }
+
+    void OnMouseDown()
+    {
+        
+        DestroyObject(gameObject);
+        counter -= 1;
+
+    }
+    
+    
+  
 }

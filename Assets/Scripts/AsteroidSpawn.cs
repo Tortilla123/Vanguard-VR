@@ -1,18 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class AsteroidSpawn : MonoBehaviour {
     // Spawning asteroids
     public GameObject Asteroid1;
-    //public GameObject Asteroid2;
-    //public GameObject Asteroid3;
-    //public GameObject Asteroid4;
-    //public Vector3 Asteroid1Val;
-    //public Vector3 Asteroid2Val;
-    //public Vector3 Asteroid3Val;
-    //public Vector3 Asteroid4Val;
-
+    public int AsteroidsLeft;
     public int AsteroidCount;
     public float AsteroidTime;
     public float firstAsteroid;
@@ -20,20 +14,20 @@ public class AsteroidSpawn : MonoBehaviour {
     public Vector3 center;
     public GameObject AsteroidPrefab;
     // Use this for initialization
+    public Text progress;
+
     void Start () {
-           StartCoroutine(SpawnAsteroid1());
+        StartCoroutine(SpawnAsteroid1());
+        AsteroidsLeft = GetComponent<DestroyAsteroid>().counter;
+        AsteroidsLeft = AsteroidCount;  //setting the amount of asteroids left to destroy to the amount it originally started with
     }
 	
 	// Update is called once per frame
 	void Update () {
-
+        asteroidsCounter();
+        
 	}
 
-   // public void SpawnAsteroid()
-  //  {
-        //Vector3 pos = center + new Vector3(Random.Range(-size.x / 2, size.x/2), Random.Range(-size.y / 2, size.y / 2), Random.Range(-size.z / 2, size.z / 2));
-       // Instantiate(AsteroidPrefab, pos, Quaternion.identity);
-  //  }
 
     IEnumerator SpawnAsteroid1()
      {
@@ -53,4 +47,22 @@ public class AsteroidSpawn : MonoBehaviour {
         Gizmos.DrawCube(center,size);
     }
 
+   /* private void OnMouseDown()
+    {
+        if (GameObject.FindGameObjectWithTag("asteroid"))
+            {
+                Destroy(Asteroid1);
+                AsteroidsLeft -= 1;
+            }
+    }*/
+
+
+public void asteroidsCounter()
+    {
+        if (AsteroidsLeft <= AsteroidCount)
+        {
+            progress.text = AsteroidsLeft.ToString();
+        }
+    }
+    
 }

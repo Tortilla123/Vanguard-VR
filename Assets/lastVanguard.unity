@@ -6662,6 +6662,21 @@ Prefab:
       propertyPath: m_Name
       value: Progresss
       objectReference: {fileID: 0}
+    - target: {fileID: 224253846569616272, guid: 61b47564394201a4a88ab9f1c0b4d0c4,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224253846569616272, guid: 61b47564394201a4a88ab9f1c0b4d0c4,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224253846569616272, guid: 61b47564394201a4a88ab9f1c0b4d0c4,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 61b47564394201a4a88ab9f1c0b4d0c4, type: 2}
   m_IsPrefabParent: 0

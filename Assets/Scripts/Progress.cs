@@ -4,14 +4,16 @@ using UnityEngine;
 
 public class Progress : MonoBehaviour {
     public Text progress;
-    private int asteroid;
-    int remaining;                  //Variable for the progress bar
-    public GameObject prefab;
+    Teleport teleport;
+    int asteroidsLeft;
+    AsteroidSpawn spawns;
+    int count;
 
     // Use this for initialization
     void Start () {
-        //asteroid = GetComponent<AsteroidSpawn>().AsteroidCount;
-        //remaining = GetComponent<AsteroidSpawn>().AsteroidsLeft;
+        asteroidsLeft = teleport.counter;
+        count = spawns.AsteroidCount;
+        asteroidsLeft = count;
 
     }
 
@@ -22,11 +24,11 @@ public class Progress : MonoBehaviour {
 
     public void UpdateAsteroids()
     {
-        //progress.text = asteroid.ToString();
-        //if ()
-        {
-
-        }
+        
+            if (asteroidsLeft <= count)
+            {
+                progress.text = asteroidsLeft.ToString();
+            }
         
     }
 }

@@ -6,7 +6,8 @@ using UnityEngine;
 public class AsteroidSpawn : MonoBehaviour {
     // Spawning asteroids
     public GameObject Asteroid1;
-    //public int AsteroidsLeft;
+    //Teleport teleport;
+    //int asteroidsleft;
     public int AsteroidCount;
     public float AsteroidTime;
     public float firstAsteroid;
@@ -14,19 +15,20 @@ public class AsteroidSpawn : MonoBehaviour {
     public Vector3 center;
     public GameObject AsteroidPrefab;
     // Use this for initialization
-    
+    public Text progress;
 
-    void Start () {
+    void Start()
+    {
         StartCoroutine(SpawnAsteroid1());
-        
+
         //AsteroidsLeft = AsteroidCount;  //setting the amount of asteroids left to destroy to the amount it originally started with
-        //AsteroidsLeft = GetComponent<DestroyAsteroid>().counter;
-    }
+        //asteroidsleft = teleport.counter;
+        
+    } 
 	
 	// Update is called once per frame
 	void Update () {
-        //asteroidsCounter();
-        
+        //AsteroidsCounter();    
 	}
 
 
@@ -49,11 +51,11 @@ public class AsteroidSpawn : MonoBehaviour {
     }
 
 
-/*public void asteroidsCounter()
+/*public void AsteroidsCounter()
     {
-        if (AsteroidsLeft <= AsteroidCount)
+        if (asteroidsleft <= AsteroidCount)
         {
-            progress.text = AsteroidsLeft.ToString();
+            progress.text = asteroidsleft.ToString();
         }
     }*/
     

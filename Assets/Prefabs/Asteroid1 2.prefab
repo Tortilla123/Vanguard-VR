@@ -248,7 +248,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1049952089413790}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3bf731c7b42f66d4b9b978b4b8416c9d, type: 3}
   m_Name: 
@@ -268,8 +268,7 @@ MonoBehaviour:
   Clone: {fileID: 1049952089413790}
   inactiveMaterial: {fileID: 2100000, guid: 7376562ddb369724a8404759c6ebd94f, type: 2}
   gazedAtMaterial: {fileID: 2100000, guid: 8205fb28506a94d3fb765429753c359f, type: 2}
-  progress: {fileID: 114226171827560266, guid: efbf2e6d00409284187f2ac177406520, type: 2}
-  AsteroidsLeft: 0
+  counter: 10
   blowUp: {fileID: 0}
   Obj: {fileID: 1049952089413790}
   rocketPrefab: {fileID: 100006, guid: 4575df893a6e3f64a8283dee38413a34, type: 2}

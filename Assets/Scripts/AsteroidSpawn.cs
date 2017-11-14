@@ -6,7 +6,7 @@ using UnityEngine;
 public class AsteroidSpawn : MonoBehaviour {
     // Spawning asteroids
     public GameObject Asteroid1;
-    public int AsteroidsLeft;
+    //public int AsteroidsLeft;
     public int AsteroidCount;
     public float AsteroidTime;
     public float firstAsteroid;
@@ -14,17 +14,18 @@ public class AsteroidSpawn : MonoBehaviour {
     public Vector3 center;
     public GameObject AsteroidPrefab;
     // Use this for initialization
-    public Text progress;
+    
 
     void Start () {
         StartCoroutine(SpawnAsteroid1());
-        AsteroidsLeft = GetComponent<DestroyAsteroid>().counter;
-        AsteroidsLeft = AsteroidCount;  //setting the amount of asteroids left to destroy to the amount it originally started with
+        
+        //AsteroidsLeft = AsteroidCount;  //setting the amount of asteroids left to destroy to the amount it originally started with
+        //AsteroidsLeft = GetComponent<DestroyAsteroid>().counter;
     }
 	
 	// Update is called once per frame
 	void Update () {
-        asteroidsCounter();
+        //asteroidsCounter();
         
 	}
 
@@ -47,22 +48,13 @@ public class AsteroidSpawn : MonoBehaviour {
         Gizmos.DrawCube(center,size);
     }
 
-   /* private void OnMouseDown()
-    {
-        if (GameObject.FindGameObjectWithTag("asteroid"))
-            {
-                Destroy(Asteroid1);
-                AsteroidsLeft -= 1;
-            }
-    }*/
 
-
-public void asteroidsCounter()
+/*public void asteroidsCounter()
     {
         if (AsteroidsLeft <= AsteroidCount)
         {
             progress.text = AsteroidsLeft.ToString();
         }
-    }
+    }*/
     
 }

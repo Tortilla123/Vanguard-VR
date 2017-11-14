@@ -10,8 +10,8 @@ public class Progress : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        asteroid = GetComponent<AsteroidSpawn>().AsteroidCount;
-        remaining = GetComponent<AsteroidSpawn>().AsteroidsLeft;
+        //asteroid = GetComponent<AsteroidSpawn>().AsteroidCount;
+        //remaining = GetComponent<AsteroidSpawn>().AsteroidsLeft;
 
     }
 

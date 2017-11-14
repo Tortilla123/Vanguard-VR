@@ -13,7 +13,7 @@
 // limitations under the License.
 
 using UnityEngine;
-
+using UnityEngine.UI;
 using System.Collections;
 
 [RequireComponent(typeof(Collider))]
@@ -23,6 +23,10 @@ public class Teleport : MonoBehaviour {
   public Material inactiveMaterial;
   public Material gazedAtMaterial;
 
+    public Text progress;          //progress counter variable
+    public int AsteroidsLeft;
+    int counter;
+ 
     public AudioSource blowUp;
     public GameObject Obj;
 
@@ -33,9 +37,18 @@ public class Teleport : MonoBehaviour {
        
     startingPosition = transform.localPosition;
     SetGazedAt(false);
+        AsteroidsLeft = GetComponent<AsteroidSpawn>().AsteroidCount;
+        counter = AsteroidsLeft;
+        
+       
     }
 
-  public void SetGazedAt(bool gazedAt) {
+    private void Update()
+    {
+        asteroidCounter();
+    }
+
+    public void SetGazedAt(bool gazedAt) {
     if (inactiveMaterial != null && gazedAtMaterial != null) {
       GetComponent<Renderer>().material = gazedAt ? gazedAtMaterial : inactiveMaterial;
       return;
@@ -65,10 +78,21 @@ public class Teleport : MonoBehaviour {
         mesher = Obj.GetComponent<MeshRenderer>();
         mesher.enabled = false;
 
-        rocketInstance = Instantiate(rocketPrefab);
-        //Debug.Log(Clone.transform.position.ToString());
-        rocketInstance.transform.position = Clone.transform.position;
-        //Debug.Log(rocketPrefab.transform.position.ToString());
-        Destroy(Clone);
+         
+            rocketInstance = Instantiate(rocketPrefab);
+            //Debug.Log(Clone.transform.position.ToString());
+            rocketInstance.transform.position = Clone.transform.position;
+            //Debug.Log(rocketPrefab.transform.position.ToString());
+            Destroy(Clone);
+            counter -= 1;
+        
+    }
+
+    public void asteroidCounter()
+    {
+        if (counter <= AsteroidsLeft)
+        {
+            progress.text = counter.ToString();
+        }
     }
 }

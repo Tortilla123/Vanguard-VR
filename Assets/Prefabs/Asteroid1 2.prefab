@@ -268,6 +268,8 @@ MonoBehaviour:
   Clone: {fileID: 1049952089413790}
   inactiveMaterial: {fileID: 2100000, guid: 7376562ddb369724a8404759c6ebd94f, type: 2}
   gazedAtMaterial: {fileID: 2100000, guid: 8205fb28506a94d3fb765429753c359f, type: 2}
+  progress: {fileID: 114226171827560266, guid: efbf2e6d00409284187f2ac177406520, type: 2}
+  AsteroidsLeft: 0
   blowUp: {fileID: 0}
   Obj: {fileID: 1049952089413790}
   rocketPrefab: {fileID: 100006, guid: 4575df893a6e3f64a8283dee38413a34, type: 2}

@@ -890,12 +890,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Asteroid1: {fileID: 1049952089413790, guid: b749b6f9af6b20c47b24ccdac8f4d50f, type: 2}
-  AsteroidCount: 100
+  PowerUp: {fileID: 1249907360462614, guid: 9f6ef1e7c268e6046bb951f5a351b877, type: 2}
+  AsteroidCount: 125
   AsteroidTime: 0.5
+  PowerTime: 20
   firstAsteroid: 1
+  firstPower: 15
   size: {x: 35, y: 6, z: 30}
   center: {x: -27, y: 13, z: -30}
   AsteroidPrefab: {fileID: 1049952089413790, guid: b749b6f9af6b20c47b24ccdac8f4d50f,
+    type: 2}
+  PowerUpContainer: {fileID: 1249907360462614, guid: 9f6ef1e7c268e6046bb951f5a351b877,
     type: 2}
   progress: {fileID: 0}
 --- !u!114 &706367253

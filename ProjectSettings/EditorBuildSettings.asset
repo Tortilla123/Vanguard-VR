@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Difficulty.unity
     guid: 5c7e43e397caf494585782c60ea34dd7
   - enabled: 1
+    path: Assets/vrcrawl.unity
+    guid: aeae58ae21b8e404caaf63d6c35b0484
+  - enabled: 1
     path: Assets/lastVanguardE.unity
     guid: c5ecac89bd303ce44a3ddedd5b04ef79
   - enabled: 1

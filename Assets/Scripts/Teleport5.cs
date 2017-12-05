@@ -63,6 +63,6 @@ public class Teleport5 : MonoBehaviour {
 
 	IEnumerator loadNextScene(){
 		yield return new WaitForSeconds (3f);
-		Application.LoadLevel("lastVanguardE");
+		Application.LoadLevel("vrcrawl");
 	}
 }

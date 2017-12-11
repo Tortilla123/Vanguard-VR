@@ -132,7 +132,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1ec702c678621240aa8336d4cb2451a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationspeed: 0
 --- !u!4 &87702854 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400012, guid: 37c91ad7d51fe354b890bf889b39dc77, type: 2}
@@ -1122,22 +1121,22 @@ BoxCollider:
 --- !u!114 &706367252
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114655733780348104, guid: 12fea314c739d694eadbc229cbd481c7,
-    type: 2}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 706367249}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d102d764a7279904b807fd4768244ba0, type: 3}
+  m_Script: {fileID: 11500000, guid: 060ffc99ac2ab184ebb5815db68bbab8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Asteroid1: {fileID: 1049952089413790, guid: b749b6f9af6b20c47b24ccdac8f4d50f, type: 2}
   PowerUp: {fileID: 1713887308663178, guid: 22d3b95e32d2fd84d9d1a4f7f64173d4, type: 2}
-  AsteroidCount: 100
-  AsteroidTime: 1
+  AsteroidCount: 10
+  AsteroidTime: 1.25
   PowerTime: 25
   firstAsteroid: 1
   firstPower: 20
+  Time: 0
   size: {x: 35, y: 6, z: 30}
   center: {x: -27, y: 13, z: -30}
   AsteroidPrefab: {fileID: 1049952089413790, guid: b749b6f9af6b20c47b24ccdac8f4d50f,
@@ -1256,7 +1255,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce7629b3326dbb14388d44850a489b76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  progress: {fileID: 295137417}
 --- !u!114 &706367256
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1702,7 +1700,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1ec702c678621240aa8336d4cb2451a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationspeed: 0
 --- !u!4 &1166795498 stripped
 Transform:
   m_PrefabParentObject: {fileID: 452512, guid: ce505e15eef1d1e46bc38cc7d5c8a84d, type: 2}
@@ -5386,7 +5383,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1ec702c678621240aa8336d4cb2451a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationspeed: 0
 --- !u!1 &1496017614
 GameObject:
   m_ObjectHideFlags: 0
@@ -6078,7 +6074,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1ec702c678621240aa8336d4cb2451a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationspeed: 0
 --- !u!1 &1860502948
 GameObject:
   m_ObjectHideFlags: 0

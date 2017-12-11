@@ -58,8 +58,7 @@ public class AsteroidSpawn2 : MonoBehaviour {
            Quaternion spawnRotation = Quaternion.identity;
            Instantiate(AsteroidPrefab, pos, spawnRotation);
            yield return new WaitForSeconds(AsteroidTime);
-           if (AsteroidCount < 50)
-                AsteroidUpdate();
+           AsteroidUpdate();
         }
     }
     IEnumerator SpawnPowerup()

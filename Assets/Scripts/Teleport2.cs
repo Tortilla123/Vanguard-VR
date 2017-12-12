@@ -55,6 +55,6 @@ public class Teleport2 : MonoBehaviour {
 
 	public void TeleportRandomly() {
 
-        Application.LoadLevel("lastVanguard");
+        Application.LoadLevel("Survival");
     }
 }

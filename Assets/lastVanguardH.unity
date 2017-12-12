@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 88ec9a13802800449aaf825aff3aadc7, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: b6a3f8bca2c865243929bac258c89b96, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.16487625, g: 0.10864479, b: 0.22398311, a: 1}
+  m_IndirectSpecularColor: {r: 0.14581496, g: 0.13377205, b: 0.24863783, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -132,7 +132,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1ec702c678621240aa8336d4cb2451a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationspeed: 0
 --- !u!1 &81963727 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1870336406864722, guid: bfa9f8c6a78c8ed44ac734ba6c1c9b12,
@@ -891,11 +890,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Asteroid1: {fileID: 1049952089413790, guid: b749b6f9af6b20c47b24ccdac8f4d50f, type: 2}
   PowerUp: {fileID: 1713887308663178, guid: 22d3b95e32d2fd84d9d1a4f7f64173d4, type: 2}
-  AsteroidCount: 125
+  AsteroidCount: 75
   AsteroidTime: 0.5
   PowerTime: 20
   firstAsteroid: 1
   firstPower: 15
+  counter: 0
   size: {x: 35, y: 6, z: 30}
   center: {x: -27, y: 13, z: -30}
   AsteroidPrefab: {fileID: 1049952089413790, guid: b749b6f9af6b20c47b24ccdac8f4d50f,
@@ -1293,7 +1293,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1ec702c678621240aa8336d4cb2451a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationspeed: 0
 --- !u!4 &1011741244 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4072379954038658, guid: b671311cd70f2b24bb6eb751ae967946,
@@ -5029,7 +5028,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1ec702c678621240aa8336d4cb2451a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationspeed: 0
 --- !u!1 &1496017614
 GameObject:
   m_ObjectHideFlags: 0
@@ -5721,7 +5719,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1ec702c678621240aa8336d4cb2451a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationspeed: 0
 --- !u!1 &1860502948
 GameObject:
   m_ObjectHideFlags: 0

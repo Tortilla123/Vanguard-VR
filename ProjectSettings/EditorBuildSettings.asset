@@ -29,3 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/GameOver.unity
     guid: 5cb60797c5241bf4c94d420942f7573e
+  - enabled: 1
+    path: Assets/SurvivalDeath.unity
+    guid: 1b2df9d0fd6a5974ca568cd8ec4d42c7
+  - enabled: 1
+    path: Assets/Win.unity
+    guid: 25c8dc393813e2e45a45dee5bf27035a

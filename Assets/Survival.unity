@@ -1129,8 +1129,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 060ffc99ac2ab184ebb5815db68bbab8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Asteroid1: {fileID: 1049952089413790, guid: b749b6f9af6b20c47b24ccdac8f4d50f, type: 2}
-  PowerUp: {fileID: 1713887308663178, guid: 22d3b95e32d2fd84d9d1a4f7f64173d4, type: 2}
   AsteroidCount: 10
   AsteroidTime: 1.25
   PowerTime: 25
@@ -1152,10 +1150,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 706367249}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 455e8cce45450664c8b80dc418260894, type: 3}
+  m_Script: {fileID: 11500000, guid: 9c64f73c6a91eba4d9a30bd24d02194c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   health: 5
+  currentHealth: 0
   DmgAmount: 1
   dead: {fileID: 0}
   dmg: {fileID: 0}

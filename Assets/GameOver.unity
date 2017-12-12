@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.16492113, g: 0.10802414, b: 0.22309715, a: 1}
+  m_IndirectSpecularColor: {r: 0.16487625, g: 0.10864479, b: 0.22398311, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -884,7 +884,7 @@ GameObject:
   - component: {fileID: 955127923}
   - component: {fileID: 955127919}
   - component: {fileID: 955127918}
-  - component: {fileID: 955127922}
+  - component: {fileID: 955127920}
   - component: {fileID: 955127921}
   m_Layer: 0
   m_Name: Play Game
@@ -935,8 +935,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 75.60399, y: 10.432376, z: 3.1932588}
-  m_Center: {x: 37.507305, y: -5.0144124, z: -0.95416266}
+  m_Size: {x: 63.164104, y: 10.432376, z: 3.1932588}
+  m_Center: {x: 31.287342, y: -5.014413, z: -0.95416254}
 --- !u!102 &955127918
 TextMesh:
   serializedVersion: 3
@@ -964,6 +964,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 955127915}
+--- !u!114 &955127920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 955127915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 884f3de2a0b385646bddda871651048f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inactiveMaterial: {fileID: 2100000, guid: 671af9900ff134377b4c6b0621bad64f, type: 3}
+  gazedAtMaterial: {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
+  speed: 0
 --- !u!82 &955127921
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1044,20 +1058,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &955127922
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 955127915}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5cf871e36e929dd4082c9a81313d5903, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inactiveMaterial: {fileID: 2100000, guid: 671af9900ff134377b4c6b0621bad64f, type: 3}
-  gazedAtMaterial: {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
-  speed: 0
 --- !u!114 &955127923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1074,7 +1074,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 955127922}
+        - m_Target: {fileID: 955127920}
           m_MethodName: SetGazedAt
           m_Mode: 6
           m_Arguments:
@@ -1103,7 +1103,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 955127922}
+        - m_Target: {fileID: 955127920}
           m_MethodName: SetGazedAt
           m_Mode: 6
           m_Arguments:
@@ -1120,7 +1120,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 955127922}
+        - m_Target: {fileID: 955127920}
           m_MethodName: TeleportRandomly
           m_Mode: 1
           m_Arguments:
@@ -1237,7 +1237,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 955127915}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 4.52}
+  m_LocalPosition: {x: 0, y: 0, z: 5}
   m_LocalScale: {x: 0.055247217, y: 0.055247206, z: 0.055247206}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1245,7 +1245,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.96, y: 4.9}
+  m_AnchoredPosition: {x: 1.88, y: 4.85}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &959308587

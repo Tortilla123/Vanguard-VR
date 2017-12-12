@@ -7,7 +7,7 @@ public class LoadGame : MonoBehaviour {
 
     private void Start()
     {
-        StartCoroutine(WaitAndLoad(50f, "lastVanguardE"));
+        StartCoroutine(WaitAndLoad(40f, "lastVanguardE"));
 
     }
     private IEnumerator WaitAndLoad(float value, string scene)

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AsteroidSpawn : MonoBehaviour {
     // Spawning asteroids
@@ -14,6 +15,7 @@ public class AsteroidSpawn : MonoBehaviour {
     public float PowerTime;
     public float firstAsteroid;
     public float firstPower;
+    public int counter;
     public Vector3 size;
     public Vector3 center;
     public GameObject AsteroidPrefab;
@@ -25,16 +27,19 @@ public class AsteroidSpawn : MonoBehaviour {
     {
         StartCoroutine(SpawnAsteroid1());
         StartCoroutine(SpawnPowerup());
+        counter = 0;
 
         //AsteroidsLeft = AsteroidCount;  //setting the amount of asteroids left to destroy to the amount it originally started with
         //asteroidsleft = teleport.counter;
-        
-    } 
-	
-	// Update is called once per frame
-	void Update () {
-        //AsteroidsCounter();    
-	}
+
+    }
+
+    // Update is called once per frame
+    void Update () {
+        //AsteroidsCounter();
+        if (counter == 75)
+            SceneManager.LoadScene("Win", LoadSceneMode.Single);
+    }
 
 
     IEnumerator SpawnAsteroid1()
@@ -46,7 +51,8 @@ public class AsteroidSpawn : MonoBehaviour {
            Vector3 pos = center + new Vector3(Random.Range(-size.x / 2, size.x/2), Random.Range(-size.y / 2, size.y / 2), Random.Range(-size.z / 2, size.z / 2));
            Quaternion spawnRotation = Quaternion.identity;
            Instantiate(AsteroidPrefab, pos, spawnRotation);
-           yield return new WaitForSeconds(AsteroidTime);
+           counter++;
+            yield return new WaitForSeconds(AsteroidTime);
       }
     }
     IEnumerator SpawnPowerup()
